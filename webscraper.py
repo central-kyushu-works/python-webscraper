@@ -48,7 +48,7 @@ pyautogui.screenshot(fpng)
 time.sleep(1)
 
 #2ページ目以降はサブ呼び出しし、カーソルキーエミュレートでページ送りして表示
-for i in range(2,6):
+for i in range(2,106):
   getimage(i)
 
 print("done!")

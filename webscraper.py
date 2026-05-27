@@ -31,8 +31,7 @@ def getimage(p):
     time.sleep(2)
 
     #スクリーンショット取得と画像ファイル出力
-    #fpng="C:\\Users\\user2\\Pictures\\page"+str(p).zfill(3)+".png"
-    fpng="C:\\Users\\imizu\\onedrive\\画像\\page"+str(p).zfill(3)+".png"
+    fpng="C:\\Users\\user2\\Pictures\\page"+str(p).zfill(3)+".png"
     pyautogui.screenshot(fpng)
     time.sleep(1)
 
@@ -44,8 +43,7 @@ driver.get(url)
 time.sleep(1.5)
 
 #スクリーンショット取得と画像ファイル出力
-#fpng="C:\\Users\\user2\\Pictures\\page001.png"
-fpng="C:\\Users\\imizu\\onedrive\\画像\\page001.png"
+fpng="C:\\Users\\user2\\Pictures\\page001.png"
 pyautogui.screenshot(fpng)
 time.sleep(1)
 
@@ -56,9 +54,3 @@ for i in range(2,6):
 print("done!")
 
 #詳しい人は終了処理を追加して
-
-
-
-
-
-
